@@ -1,1 +1,2 @@
-# This software builds a huge integer array from the heap, declares the same large array statically (static array), then declares the same large array on the stack (local array variable) (malloc). I fill in the values of these array entries at random. I also used the same array size to ensure that the computation is fair. I called each of the subprograms (functions) a huge number of times (in this example 100,000) and output the amount of time each function took.
+This software produces three sorts of arrays: static, local, and malloc. 
+All array elements are filled with random integers from 0-100. To ensure a fair calculation, Arrays are all the same size. Each function is called 100,000 times, and the time required is calculated.
